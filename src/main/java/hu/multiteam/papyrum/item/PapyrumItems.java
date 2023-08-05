@@ -1,6 +1,7 @@
 package hu.multiteam.papyrum.item;
 
 import hu.multiteam.papyrum.Papyrum;
+import hu.multiteam.papyrum.block.PapyrumBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,6 +26,7 @@ public class PapyrumItems {
             .title(Component.translatable("creativetab.papyrum_tab"))
             .displayItems((parameters, output) -> {
                 output.accept(PapyrumItems.CARDBOARD.get());
+                output.accept(PapyrumBlocks.PAPER_BLOCK.get());
             }).build());
 
     public static void register(IEventBus bus){

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "papyrum:block/paper_block"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package hu.multiteam.papyrum;
 
 import com.mojang.logging.LogUtils;
+import hu.multiteam.papyrum.block.PapyrumBlocks;
 import hu.multiteam.papyrum.item.PapyrumItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -34,9 +35,6 @@ import org.slf4j.Logger;
 public class Papyrum {
     public static final String MODID = "papyrum";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = PapyrumItems.ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties()));
 
 
 
@@ -47,10 +45,10 @@ public class Papyrum {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         PapyrumItems.register(modEventBus);
+        PapyrumBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
-        BLOCKS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -72,14 +70,10 @@ public class Papyrum {
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(EXAMPLE_BLOCK_ITEM);
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
