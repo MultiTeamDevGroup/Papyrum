@@ -7,4 +7,4 @@
 - added cardboard block
 - added recipe for the cardboard box and block
 - added cardboard tube block
-- 
+- added cardboard window block
