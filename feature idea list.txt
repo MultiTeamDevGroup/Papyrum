@@ -1,3 +1,5 @@
 - paper armor
 - put boxes in your armor slots to become the living box (every box expands your inventory)
 - box can hold entities
+- cardboard is not waterproof, make it die in rain
+- anti rain: make cardboard waxable
