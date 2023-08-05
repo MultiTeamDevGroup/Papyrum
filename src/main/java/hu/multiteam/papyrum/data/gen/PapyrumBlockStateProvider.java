@@ -22,6 +22,7 @@ public class PapyrumBlockStateProvider extends BlockStateProvider {
         axisBlockWithItem(PapyrumBlocks.PAPER_BLOCK);
         axisBlockWithItem(PapyrumBlocks.CARDBOARD_BOX);
         blockWithItem(PapyrumBlocks.CARDBOARD_BLOCK);
+        blockWithItem(PapyrumBlocks.CARDBOARD_WINDOW_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockReg){

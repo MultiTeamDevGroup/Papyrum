@@ -1,4 +1,6 @@
-// 1.20.1	2023-08-05T18:45:26.2783608	Loot Tables
+// 1.20.1	2023-08-05T22:02:34.8632271	Loot Tables
 3ac45b76e0b29d8cef76259778be4bbf4a9f785a data/papyrum/loot_tables/blocks/cardboard_block.json
 0e0f3f00ca73309e5de5759c360ac7514003c2cb data/papyrum/loot_tables/blocks/cardboard_box.json
+bcd51a036acbbb890eb9f08e709cdb28c074e9f7 data/papyrum/loot_tables/blocks/cardboard_tube.json
+9f027c24ad642182c02f38015c662c040ac8b8a3 data/papyrum/loot_tables/blocks/cardboard_window_block.json
 78d15e3c80358fde968696e52cb3faebf43715ef data/papyrum/loot_tables/blocks/paper_block.json

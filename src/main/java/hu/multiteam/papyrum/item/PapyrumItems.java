@@ -30,6 +30,7 @@ public class PapyrumItems {
                 output.accept(PapyrumBlocks.CARDBOARD_BLOCK.get());
                 output.accept(PapyrumBlocks.CARDBOARD_BOX.get());
                 output.accept(PapyrumBlocks.CARDBOARD_TUBE.get());
+                output.accept(PapyrumBlocks.CARDBOARD_WINDOW_BLOCK.get());
             }).build());
 
     public static void register(IEventBus bus){

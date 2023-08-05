@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import hu.multiteam.papyrum.block.PapyrumBlocks;
 import hu.multiteam.papyrum.item.PapyrumItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -53,7 +55,7 @@ public class Papyrum {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(PapyrumBlocks.CARDBOARD_WINDOW_BLOCK.get(), RenderType.translucent());
         }
     }
 }

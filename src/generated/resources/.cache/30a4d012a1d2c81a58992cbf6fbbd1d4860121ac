@@ -1,12 +1,15 @@
-// 1.20.1	2023-08-05T18:45:26.275363	Block States: papyrum
+// 1.20.1	2023-08-05T22:02:34.8572315	Block States: papyrum
 b1275ccf7ea0f4f60ebe7ae462eb9cc76c68d72d assets/papyrum/blockstates/cardboard_block.json
 fb7c7c968cd15d581fad64c2765b24b2a101c9d8 assets/papyrum/blockstates/cardboard_box.json
+47bb5740422762fca2238fcb21536bbb761ada49 assets/papyrum/blockstates/cardboard_window_block.json
 109af6651056d2a448da38518a59056c94f0636b assets/papyrum/blockstates/paper_block.json
 81cdeba9b0a1a26dd02489bc5050b068e6f96f9d assets/papyrum/models/block/cardboard_block.json
 78b785e81a121e7327ff56c90e3178471bfb7279 assets/papyrum/models/block/cardboard_box.json
 5011c2b6a838f3020e4f9d7af07a4bb586017e09 assets/papyrum/models/block/cardboard_box_horizontal.json
+8fbaec78a914400a14306130068236509e6aa918 assets/papyrum/models/block/cardboard_window_block.json
 bfb63c1519118751a4b24f147511331023d304c8 assets/papyrum/models/block/paper_block.json
 009fc9f73a0e6b99e163b4d4924446a53620ef34 assets/papyrum/models/block/paper_block_horizontal.json
 7a6d667cb814de8ed212fb169935c2c0e936c280 assets/papyrum/models/item/cardboard_block.json
 56460b205a23a89076caf1f9a604066698386a44 assets/papyrum/models/item/cardboard_box.json
+8d850a5b365307f3bad8b7a849491097338e4ab8 assets/papyrum/models/item/cardboard_window_block.json
 f46b34c2b8825992ad386da23918c0f49ec03e28 assets/papyrum/models/item/paper_block.json
