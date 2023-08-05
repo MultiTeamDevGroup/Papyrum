@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
@@ -24,7 +25,7 @@ public class PapyrumBlocks {
     public static final RegistryObject<RotatedPillarBlock> CARDBOARD_BOX = register("cardboard_box", () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
     public static final RegistryObject<Block> CARDBOARD_BLOCK = register("cardboard_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
     public static final RegistryObject<Block> CARDBOARD_TUBE = register("cardboard_tube", () -> new CardboardTubeBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
-    public static final RegistryObject<Block> CARDBOARD_WINDOW_BLOCK = register("cardboard_window_block", () -> new CardboardWindowBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).isViewBlocking(PapyrumBlocks::never)), new Item.Properties());
+    public static final RegistryObject<Block> CARDBOARD_WINDOW_BLOCK = register("cardboard_window_block", () -> new CardboardWindowBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).noOcclusion().isViewBlocking(PapyrumBlocks::never)), new Item.Properties());
 
     public static void register(IEventBus bus){
         BLOCKS.register(bus);
@@ -37,7 +38,7 @@ public class PapyrumBlocks {
         PapyrumItems.ITEMS.register(name, () -> new BlockItem(ret.get(), itemProperties));
         return ret;
     }
-    private static boolean never(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos) {
+    private static boolean never(BlockState p_50806_, BlockGetter p_50807_, BlockPos p_50808_) {
         return false;
     }
 }
