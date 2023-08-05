@@ -20,6 +20,7 @@ public class PapyrumBlocks {
     public static final RegistryObject<RotatedPillarBlock> PAPER_BLOCK = register("paper_block", () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_WHITE)), new Item.Properties());
     public static final RegistryObject<RotatedPillarBlock> CARDBOARD_BOX = register("cardboard_box", () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
     public static final RegistryObject<Block> CARDBOARD_BLOCK = register("cardboard_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
+    public static final RegistryObject<Block> CARDBOARD_TUBE = register("cardboard_tube", () -> new CardboardTubeBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN)), new Item.Properties());
 
     public static void register(IEventBus bus){
         BLOCKS.register(bus);
