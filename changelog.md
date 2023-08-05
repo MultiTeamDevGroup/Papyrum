@@ -4,3 +4,5 @@
 - added paper block
 - added recipe for the paper block
 - added cardboard box block
+- added cardboard block
+- added recipe for the cardboard box and block
