@@ -1,0 +1,3 @@
+- paper armor
+- put boxes in your armor slots to become the living box (every box expands your inventory)
+- box can hold entities

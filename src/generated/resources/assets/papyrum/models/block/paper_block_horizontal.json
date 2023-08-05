@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
     "end": "papyrum:block/paper_block_top",
     "side": "papyrum:block/paper_block_side"

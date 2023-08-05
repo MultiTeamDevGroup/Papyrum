@@ -1,2 +1,4 @@
-// 1.20.1	2023-08-05T13:43:16.9916957	Loot Tables
+// 1.20.1	2023-08-05T18:45:26.2783608	Loot Tables
+3ac45b76e0b29d8cef76259778be4bbf4a9f785a data/papyrum/loot_tables/blocks/cardboard_block.json
+0e0f3f00ca73309e5de5759c360ac7514003c2cb data/papyrum/loot_tables/blocks/cardboard_box.json
 78d15e3c80358fde968696e52cb3faebf43715ef data/papyrum/loot_tables/blocks/paper_block.json

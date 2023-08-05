@@ -20,6 +20,8 @@ public class PapyrumRecipeProvider extends RecipeProvider implements IConditionB
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, Items.PAPER, RecipeCategory.MISC, PapyrumBlocks.PAPER_BLOCK.get().asItem());
+        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, PapyrumItems.CARDBOARD.get(), RecipeCategory.MISC, PapyrumBlocks.CARDBOARD_BLOCK.get().asItem());
+
     }
 
 

@@ -1,5 +1,9 @@
-// 1.20.1	2023-08-05T13:43:16.9926942	Recipes
+// 1.20.1	2023-08-05T18:45:26.2793601	Recipes
+a04610c085de5d970e33a095a348d0e3c17b9a1e data/minecraft/advancements/recipes/building_blocks/cardboard.json
 55b821ea173f2cd7afab531df513ee4e3d708c9e data/minecraft/advancements/recipes/building_blocks/paper.json
+eb73eb3bd33cb11beff40f7ff4db79b309e2ad08 data/minecraft/advancements/recipes/misc/cardboard_block.json
 dcff8a72e1a290675145ab896ea96aab2110305f data/minecraft/advancements/recipes/misc/paper_block.json
+e70b18498f99176b81aa9873dff28a3691778c23 data/minecraft/recipes/cardboard.json
+7c2e05ebb4f5fc9603b27aa398f0525ab269b879 data/minecraft/recipes/cardboard_block.json
 e05500dbd5563b1d5ad0423f130a9e3dfa89548c data/minecraft/recipes/paper.json
 7ee90946e2e083fa90e1f906a5c549873ceb4da7 data/minecraft/recipes/paper_block.json

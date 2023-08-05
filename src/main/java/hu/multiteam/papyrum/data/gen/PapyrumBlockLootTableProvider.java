@@ -16,6 +16,8 @@ public class PapyrumBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(PapyrumBlocks.PAPER_BLOCK.get());
+        dropSelf(PapyrumBlocks.CARDBOARD_BOX.get());
+        dropSelf(PapyrumBlocks.CARDBOARD_BLOCK.get());
     }
 
     @Override

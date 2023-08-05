@@ -25,8 +25,10 @@ public class PapyrumItems {
             .icon(() -> PapyrumItems.CARDBOARD.get().getDefaultInstance())
             .title(Component.translatable("creativetab.papyrum_tab"))
             .displayItems((parameters, output) -> {
-                output.accept(PapyrumItems.CARDBOARD.get());
                 output.accept(PapyrumBlocks.PAPER_BLOCK.get());
+                output.accept(PapyrumItems.CARDBOARD.get());
+                output.accept(PapyrumBlocks.CARDBOARD_BLOCK.get());
+                output.accept(PapyrumBlocks.CARDBOARD_BOX.get());
             }).build());
 
     public static void register(IEventBus bus){

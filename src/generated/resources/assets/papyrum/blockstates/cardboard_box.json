@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "papyrum:block/cardboard_box_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "papyrum:block/cardboard_box"
+    },
+    "axis=z": {
+      "model": "papyrum:block/cardboard_box_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "papyrum:block/paper_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "papyrum:block/paper_block"
+    },
+    "axis=z": {
+      "model": "papyrum:block/paper_block_horizontal",
+      "x": 90
     }
   }
 }

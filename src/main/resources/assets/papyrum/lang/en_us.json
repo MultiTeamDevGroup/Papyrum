@@ -1,5 +1,7 @@
 {
   "creativetab.papyrum_tab": "Papyrum",
   "item.papyrum.cardboard": "Cardboard",
-  "block.papyrum.paper_block": "Paper Block"
+  "block.papyrum.paper_block": "Paper Block",
+  "block.papyrum.cardboard_block": "Cardboard Block",
+  "block.papyrum.cardboard_box": "Cardboard Box"
 }
